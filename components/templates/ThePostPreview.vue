@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: 'PostPreview',
+  name: "PostPreview",
   props: {
     path: {
       type: String,
@@ -27,18 +27,21 @@ export default {
     },
     description: {
       type: String,
-      default: '',
-      required: false
+      default: "",
+      required: true
     }
   }
-}
+};
 </script>
 
 <style scoped>
 .post-preview {
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 2px #ccc;
-  background-color: dodgerblue;
+  color: #004085;
+  background-color: #cce5ff;
+  border: 1px solid #b8daff;
+  border-radius: .25rem;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
   width: 90%;
 }
 
@@ -68,6 +71,7 @@ a {
 
 a:hover .post-content,
 a:active .post-content {
-  background-color: cornflowerblue;
+  background-color: #cce5ff;
+  color: #1B1E21;
 }
 </style>

@@ -56,12 +56,5 @@ export default {
 };
 </script>
 
-<style scoped>
-.first-half {
-  background-image: url("~assets/images/vjhp/mobile.png");
-}
-
-.second-half {
-  background-image: url("~assets/images/vjhp/ipad.png");
-}
+<style>
 </style>

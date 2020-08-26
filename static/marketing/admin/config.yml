@@ -1,11 +1,8 @@
 backend:
-  name: gitlab
-  repo: dumarca/landing-page-ssg
-  auth_type: implicit 
-  app_id: 429f87ba26d4d1054e32126ccf20f2937f5bfff9cb12aec083c64d382a659f5e
-  api_root: https://git.plaingaming.net/api/v4
-  base_url: https://git.plaingaming.net
-  auth_endpoint: oauth/authorize
+  name: git-gateway
+  #name: github
+  #repo: drap54/ds-gitlab
+  #branch: master
 
 publish_mode: editorial_workflow  
 media_folder: static/marketing/img
@@ -28,7 +25,7 @@ collections:
         widget: string
         name: slug_name
         required: true  
-        hint: "The last segment of landing page URL. If updating, the original slug value will be used as URL (please do not include folder or file extension)"
+        hint: "The last segment of landing page URL (do not include folder or file extension)"
       - label: "Locale"
         name: "promo_locale"
         widget: "object"
@@ -83,6 +80,7 @@ collections:
           - {label: "Step 3 Description", name: promo_step_3_desc, widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}    
       - {label: Template, name: promo_template, widget: hidden, default: "VJLP1-NoForm"}
+
   - name: "VJLP3-NoForm"
     label: "Vera&John Template 3"
     format: 'frontmatter'
@@ -99,7 +97,7 @@ collections:
         widget: string
         name: slug_name
         required: true  
-        hint: "The last segment of landing page URL. If updating, the original slug value will be used as URL (please do not include folder or file extension)"
+        hint: "The last segment of landing page URL (do not include folder or file extension)"
       - label: "Locale"
         name: "promo_locale"
         widget: "object"
@@ -167,23 +165,19 @@ collections:
               - {label: "Game URL", name: game_url_6, widget: string, required: false, default: ""}
       - {label: Template, name: promo_template, widget: hidden, default: "VJLP3-NoForm"}
       - {label: 'Body', name: 'body', widget: 'markdown' }
+
   - name: 'ICLP1-NoForm'
     label: 'Intercasino Template 1'
     format: 'frontmatter'
     folder: 'assets/content/landing-page/marketing/iclp1'
     create: true
-    identifier_field: "slug_name"
-    slug: '{{slug}}'
+    identifier_field: "promo_banner.promo_title"
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     preview_path: iclp1/{{slug}}
     show_preview_links: false
     editor:
       preview: false
     fields:
-      - label: Slug
-        widget: string
-        name: slug_name
-        required: true  
-        hint: "The last segment of landing page URL. If updating, the original slug value will be used as URL (please do not include folder or file extension)"
       - label: "Locale"
         name: "promo_locale"
         widget: "object"
@@ -242,7 +236,8 @@ collections:
           - {label: "Step 3 Title", name: promo_step_3_title, widget: "string"}
           - {label: "Step 3 Description", name: promo_step_3_desc, widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}    
-      - {label: Template, name: promo_template, widget: hidden, default: "VJLP1-NoForm"}
+      - {label: Template, name: promo_template, widget: hidden, default: "VJLP1-NoForm"}      
+
   - label: "Vera&John Homepage"
     name: "VJ-Homepage"
     format: 'frontmatter'

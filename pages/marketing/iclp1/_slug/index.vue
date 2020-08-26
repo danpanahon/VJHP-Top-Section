@@ -45,7 +45,7 @@ export default {
   layout: 'iclp1',
   head() {
     return { 
-      title: 'InterCasino',
+      title: 'Intercasino',
       htmlAttrs: {
         lang: this.post.attributes.promo_locale.promo_language_code
       },

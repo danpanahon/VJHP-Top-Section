@@ -2,7 +2,7 @@
   <div id="wrapper">
     <header id="header">
       <span class="logo">
-        <img src="/marketing/img/vjhp/logo.svg" alt="Vera&John" />
+        <img src="/marketing/img/vjhp/logo.svg" alt />
       </span>
       <h2>ベラジョン・オンラインカジノへようこそ!</h2>
       <h1>日本NO.1カジノ!</h1>
@@ -12,46 +12,47 @@
       </h3>
       <ul class="items-list gameslider">
         <li>
-          <a href="https://www.verajohn.com/home">
-            <img src="/marketing/img/vjhp/game1.svg" alt="game1"/>
+          <a href="#">
+            <img src="/marketing/img/vjhp/game1.svg" />
           </a>
         </li>
         <li>
-          <a href="https://www.verajohn.com/home">
-            <img src="/marketing/img/vjhp/game2.svg" alt="game2"/>
+          <a href="#">
+            <img src="/marketing/img/vjhp/game2.svg" />
           </a>
         </li>
         <li>
-          <a href="https://www.verajohn.com/home">
-            <img src="/marketing/img/vjhp/game3.svg" alt="game3"/>
+          <a href="#">
+            <img src="/marketing/img/vjhp/game3.svg" />
           </a>
         </li>
         <li>
-          <a href="https://www.verajohn.com/home">
-            <img src="/marketing/img/vjhp/game4.svg" alt="game4"/>
+          <a href="#">
+            <img src="/marketing/img/vjhp/game4.svg" />
           </a>
         </li>
         <li>
-          <a href="https://www.verajohn.com/home">
-            <img src="/marketing/img/vjhp/game5.svg" alt="game5"/>
+          <a href="#">
+            <img src="/marketing/img/vjhp/game5.svg" />
           </a>
         </li>
         <li>
-          <a href="https://www.verajohn.com/home">
-            <img src="/marketing/img/vjhp/game6.svg" alt="game6"/>
+          <a href="#">
+            <img src="/marketing/img/vjhp/game6.svg" />
           </a>
         </li>
       </ul>
       <h4>登録してからすぐ使える! 業界一お得なビギナーズボーナスのおまけつき!</h4>
       <div class="chest">
-        <a href="https://www.verajohn.com/home">
-          <img src="/marketing/img/vjhp/chest.svg" alt="chest"/>
+        <a href="#">
+          <img src="/marketing/img/vjhp/chest.svg" />
         </a>
       </div>
       <p>お試し登録ボーナス &amp; 最初3回のご入金に合計最大$1000ボーナスをプレゼント!</p>
       <a class="button primary" v-bind:href="header_button_redirect_url">{{ header_text }}</a>
       <p>
-        アカウントをお持ちの方はコチラから<a v-bind:href="header_login_account_text_redirect_url">{{ header_login_account_text }}</a>
+        アカウントをお持ちの方はコチラから
+        <a v-bind:href="header_login_account_text">{{ header_login_account_text_redirect_url }}</a>
       </p>
     </header>
   </div>
@@ -81,12 +82,9 @@ export default {
       type: String,
       required: true,
     },
-  }
+  },
 };
 </script>
 
-<style scoped>
-#wrapper {
-  background-image: url("/marketing/img/vjhp/bg.svg");
-}
+<style>
 </style>

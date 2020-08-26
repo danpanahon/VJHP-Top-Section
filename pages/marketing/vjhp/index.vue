@@ -40,27 +40,21 @@
 </template>
 
 <script>
-import TheLoginHeaderSection from '~/components/templates/vjhp/TheLoginHeaderSection.vue';
-import TheHeaderSection from '~/components/templates/vjhp/TheHeaderSection.vue';
-import TheSection2 from '~/components/templates/vjhp/TheSection2.vue';
-import TheGamesBrickSection from '~/components/templates/vjhp/TheGamesBrickSection.vue';
-import TheSection4 from '~/components/templates/vjhp/TheSection4.vue';
-import TheSection5 from '~/components/templates/vjhp/TheSection5.vue';
-import TheTestimonialSection from '~/components/templates/vjhp/TheTestimonialSection.vue';
-import TheSection7 from '~/components/templates/vjhp/TheSection7.vue';
-import TheFooterSection from '~/components/templates/vjhp/TheFooterSection.vue';
+import TheLoginHeaderSection from "~/components/templates/vjhp/TheLoginHeaderSection.vue";
+import TheHeaderSection from "~/components/templates/vjhp/TheHeaderSection.vue";
+import TheSection2 from "~/components/templates/vjhp/TheSection2.vue";
+import TheGamesBrickSection from "~/components/templates/vjhp/TheGamesBrickSection.vue";
+import TheSection4 from "~/components/templates/vjhp/TheSection4.vue";
+import TheSection5 from "~/components/templates/vjhp/TheSection5.vue";
+import TheTestimonialSection from "~/components/templates/vjhp/TheTestimonialSection.vue";
+import TheSection7 from "~/components/templates/vjhp/TheSection7.vue";
+import TheFooterSection from "~/components/templates/vjhp/TheFooterSection.vue";
 
 export default {
   layout: 'vjhp',
   head() {
     return { 
-      title: 'Vera&John - The fun online casino',
-      htmlAttrs: {
-        lang: 'ja',
-      },
-       bodyAttrs: {
-        id: 'ja-jp',
-      }
+      title: 'Vera&John Homepage',
     }
   },
   components: {
