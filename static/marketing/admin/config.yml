@@ -285,11 +285,6 @@ collections:
               - {label: "Account Login", name: header_section_account_login, widget: "string"}
               - {label: "Account Login URL", name: header_section_account_login_url, widget: "string"}
               - {label: "Background Image", name: header_section_background_image, widget: "image"}
-
-              - {label: "Header Button Text", name: header_text, widget: "string"}
-              - {label: "Header Button Redirect URL", name: header_button_redirect_url, widget: "string"}
-              - {label: "Login Account Text", name: header_login_account_text, widget: "string"}
-              - {label: "Login Account Text Redirect URL", name: header_login_account_text_redirect_url, widget: "string"}
           - label: "Games Brick Section"
             name: "games_brick_section" 
             widget: "object"
