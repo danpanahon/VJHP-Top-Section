@@ -293,6 +293,7 @@ collections:
               - {label: "Best Deal Small Caption", name: header_section_best_deal_small_caption, widget: "string"}
               - {label: "Register Button", name: header_section_register_button, widget: "string"}
               - {label: "Register Button URL", name: header_section_register_button_url, widget: "string"}
+              - {label: "Account Text", name: header_section_account_text, widget: "string"}
               - {label: "Account Login", name: header_section_account_login, widget: "string"}
               - {label: "Account Login URL", name: header_section_account_login_url, widget: "string"}
               - {label: "Background Image", name: header_section_background_image, widget: "image"}

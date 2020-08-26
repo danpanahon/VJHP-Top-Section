@@ -39,22 +39,22 @@
           </a>
         </li>
       </ul>
-      <h4>登録してからすぐ使える! 業界一お得なビギナーズボーナスのおまけつき!</h4>
+      <h4>{{ header_section_best_deal_caption }}</h4>
       <div class="chest">
         <a href="#">
           <img src="/marketing/img/vjhp/chest.svg" />
         </a>
       </div>
-      <p>お試し登録ボーナス &amp; 最初3回のご入金に合計最大$1000ボーナスをプレゼント!</p>
-      <a class="button primary" v-bind:href="header_button_redirect_url">{{ header_text }}</a>
+      <p>{{ header_section_best_deal_small_caption }}</p>
+      <a class="button primary" v-bind:href="header_section_register_button_url">{{ header_section_register_button }}</a>
       <p>
-        アカウントをお持ちの方はコチラから
-        <a v-bind:href="header_login_account_text">{{ header_login_account_text_redirect_url }}</a>
+        {{ header_section_account_text }}
+        <a v-bind:href="header_section_account_login">{{ header_section_account_login_url }}</a>
       </p>
+      
     </header>
   </div>
 </template>
-
 <script>
 export default {
   name: 'TheHeaderSection',
@@ -136,6 +136,10 @@ export default {
       required: true,
     },
     header_section_register_button_url: {
+      type: String,
+      required: true,
+    },
+    header_section_account_text: {
       type: String,
       required: true,
     },
