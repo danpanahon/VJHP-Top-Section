@@ -4,12 +4,9 @@
       <span class="logo">
         <img src="/marketing/img/vjhp/logo.svg" alt />
       </span>
-      <h2>ベラジョン・オンラインカジノへようこそ!</h2>
-      <h1>日本NO.1カジノ!</h1>
-      <h3>
-        圧倒的な人気とシェア!
-        <br />さらに安心・安全・楽しいの3拍子がばっちり揃う、業界ナンバーワンカジノで遊んじゃおう!
-      </h3>
+      <h2>{{ header_section_welcome_message }}</h2>
+      <h1>{{ header_section_main_heading }}</h1>
+      <h3>{{ header_section_heading_subtitle }}</h3>
       <ul class="items-list gameslider">
         <li>
           <a href="#">
