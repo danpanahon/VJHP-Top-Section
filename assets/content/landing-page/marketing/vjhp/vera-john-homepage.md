@@ -5,10 +5,35 @@ login_header_section:
   login_header_text: Sample Login
   login_header_redirect_url: https://www.google.com
 header_section:
-  header_text: Sample Header
-  header_button_redirect_url: https://www.google.com
-  header_login_account_text: Sample Login
+  header_section_heading_subtitle: fghnfdgh
+  header_section_best_deal_caption: sdfgsdfhg
+  header_section_register_button: dsghsdfhsdf
+  header_section_game_slider_url_1: "#"
   header_login_account_text_redirect_url: https://www.google.com
+  header_section_game_slider_url_2: "#"
+  header_section_game_slider_url_3: "#"
+  header_login_account_text: Sample Login
+  header_section_game_slider_url_4: "#"
+  header_button_redirect_url: https://www.google.com
+  login_header_redirect_url: "#"
+  header_section_game_slider_url_5: "#"
+  header_section_main_heading: fghnfghs
+  header_section_game_slider_url_6: "#"
+  login_header_text: dsfhgerh aert
+  header_section_best_deal_small_caption: sdfhsfhs
+  header_section_account_login: ghkfmk
+  header_section_register_button_url: "#"
+  header_section_game_slider_1: /marketing/img/icon_1.png
+  header_section_game_slider_2: /marketing/img/baccarat-lobby-paris.png
+  header_section_game_slider_3: /marketing/img/battle-dwarf.png
+  header_section_background_image: /marketing/img/313_bg.jpg
+  header_section_game_slider_4: /marketing/img/hawaiian-dream.png
+  header_section_best_deal_image: /marketing/img/battle-dwarf.png
+  header_section_game_slider_5: /marketing/img/baccarat-lobby-paris.png
+  header_section_game_slider_6: /marketing/img/baccarat-lobby-paris.png
+  header_section_account_login_url: "#"
+  header_section_welcome_message: sg s
+  header_text: Sample Header
 games_brick_section:
   games_brick_column_1:
     games_brick_column_1_button: Column 1 Button Sample
