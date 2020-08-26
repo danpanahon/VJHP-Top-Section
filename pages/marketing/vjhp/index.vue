@@ -11,6 +11,7 @@
       :header_button_redirect_url="post.attributes.header_section.header_button_redirect_url"
       :header_login_account_text="post.attributes.header_section.header_login_account_text"
       :header_login_account_text_redirect_url="post.attributes.header_section.header_login_account_text_redirect_url"
+      :login_header_text="post.attributes.header_section.login_header_text"
     />
     <TheSection2 />
     <TheGamesBrickSection
