@@ -1,8 +1,8 @@
 <template>
   <section>
     <div class="logInHeader">
+      すでに登録済みですか?
       <a v-bind:href="header_section_top_login_text_url">
-        すでに登録済みですか?
         <span>{{ header_section_top_login_text }}</span>
       </a>
     </div>
