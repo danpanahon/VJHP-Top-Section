@@ -260,8 +260,6 @@ collections:
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Login Account Text", name: header_login_account_text, widget: "string"}
-              - {label: "Login Account Text Redirect URL", name: header_login_account_text_redirect_url, widget: "string"}
               - {label: "Login Header Text", name: login_header_text, widget: "string"}
               - {label: "Login Header Redirect URL", name: login_header_redirect_url, widget: "string"}
               - {label: "Welcome Message", name: header_section_welcome_message, widget: "string"}
