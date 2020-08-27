@@ -19,6 +19,7 @@ header_section:
   login_header_redirect_url: "#"
   header_section_game_slider_url_5: "#"
   header_section_main_heading: fghnfghs
+  header_section_top_login_text_url: "#"
   header_section_game_slider_url_6: "#"
   login_header_text: dsfhgerh aert
   header_section_best_deal_small_caption: sdfhsfhs
@@ -33,6 +34,7 @@ header_section:
   header_section_best_deal_image: /marketing/img/ideas2.jpg
   header_section_game_slider_5: /marketing/img/baccarat-lobby-paris.png
   header_section_game_slider_6: /marketing/img/baccarat-lobby-paris.png
+  header_section_top_login_text: top login
   header_section_account_login_url: "#"
   header_section_welcome_message: sg s
   header_text: Sample Header
