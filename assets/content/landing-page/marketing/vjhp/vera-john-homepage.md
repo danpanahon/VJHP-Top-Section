@@ -17,6 +17,7 @@ header_section:
   header_section_best_deal_image_url: "#"
   header_section_game_slider_url_4: "#"
   header_button_redirect_url: https://www.google.com
+  header_section_top_background_color: red
   login_header_redirect_url: "#"
   header_section_game_slider_url_5: "#"
   header_section_main_heading: fghnfghs
