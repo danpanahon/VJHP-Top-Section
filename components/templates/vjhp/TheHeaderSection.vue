@@ -9,7 +9,7 @@
     <div id="wrapper" v-bind:style='{ backgroundImage: "url(" + header_section_background_image + ")", }'>
       <header id="header">
         <span class="logo">
-          <img src="/marketing/img/vjhp/logo.svg" />
+          <img src="/marketing/img/vjhp/logo.svg"/>
         </span>
         <h2>{{ header_section_welcome_message }}</h2>
         <h1>{{ header_section_main_heading }}</h1>
