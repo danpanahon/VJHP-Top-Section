@@ -66,6 +66,10 @@
 export default {
   name: 'TheHeaderSection',
   props: {
+    header_section_top_login_text: {
+      type: String,
+      required: true,
+    },
     header_section_top_login_text_url: {
       type: String,
       required: true,
