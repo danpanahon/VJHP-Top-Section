@@ -1,5 +1,5 @@
 <template>
-  <div id="wrapper" v-bind:style="header_section_background_image">
+  <div id="wrapper" v-bind:style='{ backgroundImage: "url(" + header_section_background_image + ")", }'>
     <header id="header">
       <span class="logo">
         <img src="/marketing/img/vjhp/logo.svg" alt />
