@@ -52,6 +52,11 @@
         <a v-bind:href="header_section_account_login_url">{{ header_section_account_login }}</a>
       </p>
     </header>
+    <style>
+    :root {
+      --bg-image: url('{{ images.header_section_background_image }}');
+    }
+    </style>
   </div>
 </template>
 <script>
