@@ -182,8 +182,8 @@ export default {
       type: String,
       required: true,
     },
-    images: {
-      type: Object,
+    header_section_background_image: {
+      type: Image,
       required: true,
     }
   },
