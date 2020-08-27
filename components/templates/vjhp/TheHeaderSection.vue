@@ -51,6 +51,11 @@
         {{ header_section_account_text }}
         <a v-bind:href="header_section_account_login_url">{{ header_section_account_login }}</a>
       </p>
+      <style>
+      :root {
+        --bg-image: url('{{ images.header_section_background_image }}');
+      }
+      </style>
     </header>
   </div>
 </template>
@@ -181,10 +186,17 @@ export default {
     header_section_account_login_url: {
       type: String,
       required: true,
+    },
+    images: {
+      type: Object,
+      required: true,
     }
   },
 };
 </script>
 
 <style>
+#wrapper {
+    background-image: var(--bg-image);
+}
 </style>
