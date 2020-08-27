@@ -8,6 +8,7 @@ header_section:
   header_section_heading_subtitle: fghnfdgh
   header_section_best_deal_caption: sdfgsdfhg
   header_section_register_button: dsghsdfhsdf
+  header_section_top_text: jhfjhfjhfjhfjhfjhfjfjfjfjfj
   header_section_game_slider_url_1: "#"
   header_login_account_text_redirect_url: https://www.google.com
   header_section_game_slider_url_2: "#"
