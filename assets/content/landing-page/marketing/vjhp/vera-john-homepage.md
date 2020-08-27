@@ -13,6 +13,7 @@ header_section:
   header_section_game_slider_url_2: "#"
   header_section_game_slider_url_3: "#"
   header_login_account_text: Sample Login
+  header_section_best_deal_image_url: "#"
   header_section_game_slider_url_4: "#"
   header_button_redirect_url: https://www.google.com
   login_header_redirect_url: "#"
@@ -21,14 +22,15 @@ header_section:
   header_section_game_slider_url_6: "#"
   login_header_text: dsfhgerh aert
   header_section_best_deal_small_caption: sdfhsfhs
-  header_section_account_login: ghkfmk
+  header_section_account_text: May account ka na ba?
+  header_section_account_login: make pindot here
   header_section_register_button_url: "#"
   header_section_game_slider_1: /marketing/img/icon_1.png
   header_section_game_slider_2: /marketing/img/baccarat-lobby-paris.png
   header_section_game_slider_3: /marketing/img/battle-dwarf.png
   header_section_background_image: /marketing/img/313_bg.jpg
   header_section_game_slider_4: /marketing/img/hawaiian-dream.png
-  header_section_best_deal_image: /marketing/img/battle-dwarf.png
+  header_section_best_deal_image: /marketing/img/ideas2.jpg
   header_section_game_slider_5: /marketing/img/baccarat-lobby-paris.png
   header_section_game_slider_6: /marketing/img/baccarat-lobby-paris.png
   header_section_account_login_url: "#"
