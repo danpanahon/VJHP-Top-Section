@@ -1,5 +1,5 @@
 <template>
-  <div id="wrapper">
+  <div id="wrapper" v-bind:style="header_section_background_image">
     <header id="header">
       <span class="logo">
         <img src="/marketing/img/vjhp/logo.svg" alt />
@@ -51,11 +51,6 @@
         {{ header_section_account_text }}
         <a v-bind:href="header_section_account_login_url">{{ header_section_account_login }}</a>
       </p>
-      <style>
-    :root {
-      --bg-image: url('{{ header_section_background_image }}');
-    }
-    </style>
     </header>
   </div>
 </template>
@@ -194,9 +189,3 @@ export default {
   },
 };
 </script>
-
-<style>
-#wrapper {
-    background-image: var(--bg-image);
-}
-</style>
