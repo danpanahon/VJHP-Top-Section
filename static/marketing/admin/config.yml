@@ -260,6 +260,7 @@ collections:
             widget: "object"
             collapsed: true
             fields:
+              - {label: "Top Text", name: header_section_top_text, widget: "string"}
               - {label: "Top Login Text", name: header_section_top_login_text, widget: "string"}
               - {label: "Top Login Text URL", name: header_section_top_login_text_url, widget: "string"}
               - {label: "Welcome Message", name: header_section_welcome_message, widget: "string"}

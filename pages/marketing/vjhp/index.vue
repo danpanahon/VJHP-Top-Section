@@ -2,6 +2,7 @@
   <div>
     <TheHeaderSection
       :homepage_title="post.attributes.header_section.homepage_title || '' "
+      :header_section_top_text="post.attributes.header_section.header_section_top_text"
       :header_section_top_login_text="post.attributes.header_section.header_section_top_login_text"
       :header_section_top_login_text_url="post.attributes.header_section.header_section_top_login_text_url"
       :header_section_welcome_message="post.attributes.header_section.header_section_welcome_message"

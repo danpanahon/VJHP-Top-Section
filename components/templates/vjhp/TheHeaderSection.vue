@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="logInHeader">
-      すでに登録済みですか?
+      {{ header_section_top_text }}
       <a v-bind:href="header_section_top_login_text_url">
         <span>{{ header_section_top_login_text }}</span>
       </a>
@@ -66,6 +66,10 @@
 export default {
   name: 'TheHeaderSection',
   props: {
+    header_section_top_text: {
+      type: String,
+      required: true,
+    },
     header_section_top_login_text: {
       type: String,
       required: true,
