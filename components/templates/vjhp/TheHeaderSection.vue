@@ -49,7 +49,7 @@
       <a class="button primary" v-bind:href="header_section_register_button_url">{{ header_section_register_button }}</a>
       <p>
         {{ header_section_account_text }}
-        <a v-bind:href="header_section_account_login">{{ header_section_account_login_url }}</a>
+        <a v-bind:href="header_section_account_login_url">{{ header_section_account_login }}</a>
       </p>
     </header>
   </div>
