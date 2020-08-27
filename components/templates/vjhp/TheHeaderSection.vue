@@ -1,9 +1,9 @@
 <template>
   <section>
     <div class="logInHeader">
-      <a v-bind:href="header_login_account_text_redirect_url">
+      <a v-bind:href="header_section_top_login_text_url">
         すでに登録済みですか?
-        <span>{{ header_login_account_text }}</span>
+        <span>{{ header_section_top_login_text }}</span>
       </a>
     </div>
     <div id="wrapper" v-bind:style='{ backgroundImage: "url(" + header_section_background_image + ")", }'>
@@ -66,19 +66,7 @@
 export default {
   name: 'TheHeaderSection',
   props: {
-    login_header_text: {
-      type: String,
-      required: true,
-    },
-    login_header_redirect_url: {
-      type: String,
-      required: true,
-    },
-    header_button_redirect_url: {
-      type: String,
-      required: true,
-    },
-    header_login_account_text: {
+    header_section_top_login_text_url: {
       type: String,
       required: true,
     },
