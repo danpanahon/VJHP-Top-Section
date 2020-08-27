@@ -255,20 +255,11 @@ collections:
             collapsed: true
             fields:
               - {label: "Title for this edit", name: "promo_title", widget: "string"}
-          - label: "Login Header Section"
-            name: "login_header_section"
-            widget: "object"
-            collapsed: true
-            fields:
-              - {label: "Login Header Text", name: login_header_text, widget: "string"}
-              - {label: "Login Header Redirect URL", name: login_header_redirect_url, widget: "string"}
           - label: "Header Section"
             name: "header_section"
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Header Button Text", name: header_text, widget: "string"}
-              - {label: "Header Button Redirect URL", name: header_button_redirect_url, widget: "string"}
               - {label: "Login Account Text", name: header_login_account_text, widget: "string"}
               - {label: "Login Account Text Redirect URL", name: header_login_account_text_redirect_url, widget: "string"}
               - {label: "Login Header Text", name: login_header_text, widget: "string"}

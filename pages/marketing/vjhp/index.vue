@@ -2,17 +2,15 @@
   <div>
     <TheLoginHeaderSection
       :title="post.attributes.promo_banner.promo_title"
-      :login_header_text="post.attributes.login_header_section.login_header_text"
-      :login_header_redirect_url="post.attributes.login_header_section.login_header_redirect_url"
     />
     <TheHeaderSection
       :homepage_title="post.attributes.header_section.homepage_title || '' "
+      :login_header_text="post.attributes.login_header_section.login_header_text"
+      :login_header_redirect_url="post.attributes.login_header_section.login_header_redirect_url"
       :header_text="post.attributes.header_section.header_text"
       :header_button_redirect_url="post.attributes.header_section.header_button_redirect_url"
       :header_login_account_text="post.attributes.header_section.header_login_account_text"
       :header_login_account_text_redirect_url="post.attributes.header_section.header_login_account_text_redirect_url"
-      :login_header_text="post.attributes.header_section.login_header_text"
-      :login_header_redirect_url="post.attributes.header_section.login_header_redirect_url"
       :header_section_welcome_message="post.attributes.header_section.header_section_welcome_message"
       :header_section_main_heading="post.attributes.header_section.header_section_main_heading"
       :header_section_heading_subtitle="post.attributes.header_section.header_section_heading_subtitle"
