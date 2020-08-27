@@ -185,6 +185,10 @@ export default {
     header_section_background_image: {
       type: Image,
       required: true,
+    },
+    images: {
+      type: Object,
+      required: true,
     }
   },
 };
