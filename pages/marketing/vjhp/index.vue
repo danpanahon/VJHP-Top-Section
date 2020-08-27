@@ -5,6 +5,7 @@
       :header_section_top_text="post.attributes.header_section.header_section_top_text"
       :header_section_top_login_text="post.attributes.header_section.header_section_top_login_text"
       :header_section_top_login_text_url="post.attributes.header_section.header_section_top_login_text_url"
+      :header_section_top_background_color="post.attributes.header_section.header_section_top_background_color"
       :header_section_welcome_message="post.attributes.header_section.header_section_welcome_message"
       :header_section_main_heading="post.attributes.header_section.header_section_main_heading"
       :header_section_heading_subtitle="post.attributes.header_section.header_section_heading_subtitle"
