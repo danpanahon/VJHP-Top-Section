@@ -51,13 +51,6 @@
         {{ header_section_account_text }}
         <a v-bind:href="header_section_account_login">{{ header_section_account_login_url }}</a>
       </p>
-      <style>
-        :root {
-          --bg-image: url('{{ images.promo_bg_desktop }}');
-          --bg-image-m: url('{{ images.promo_bg_mobile }}');
-          --game-logo: url('{{ images.promo_game_logo }}');
-        }
-      </style>
     </header>
   </div>
 </template>
