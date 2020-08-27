@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="logInHeader" v-bind:style="{ 'background-color': 'header_section_top_background_color' }">
+    <div class="logInHeader" v-bind:style='{ backgroundColor: header_section_top_background_color }'>
       {{ header_section_top_text }}
       <a v-bind:href="header_section_top_login_text_url">
         <span>{{ header_section_top_login_text }}</span>
