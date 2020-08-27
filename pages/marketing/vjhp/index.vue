@@ -30,6 +30,7 @@
       :header_section_game_slider_url_6="post.attributes.header_section.header_section_game_slider_url_6"
       :header_section_best_deal_caption="post.attributes.header_section.header_section_best_deal_caption"
       :header_section_best_deal_image="post.attributes.header_section.header_section_best_deal_image"
+      :header_section_best_deal_image_url="post.attributes.header_section.header_section_best_deal_image_url"
       :header_section_best_deal_small_caption="post.attributes.header_section.header_section_best_deal_small_caption"
       :header_section_register_button="post.attributes.header_section.header_section_register_button"
       :header_section_register_button_url="post.attributes.header_section.header_section_register_button_url"

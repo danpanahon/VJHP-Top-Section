@@ -290,6 +290,7 @@ collections:
               - {label: "Game Slider URL 1", name: header_section_game_slider_url_6, widget: "string"}
               - {label: "Best Deal Caption", name: header_section_best_deal_caption, widget: "string"}
               - {label: "Best Deal Image", name: header_section_best_deal_image, widget: "image"}
+              - {label: "Best Deal Image URL", name: header_section_best_deal_image_url, widget: "string"}
               - {label: "Best Deal Small Caption", name: header_section_best_deal_small_caption, widget: "string"}
               - {label: "Register Button", name: header_section_register_button, widget: "string"}
               - {label: "Register Button URL", name: header_section_register_button_url, widget: "string"}
