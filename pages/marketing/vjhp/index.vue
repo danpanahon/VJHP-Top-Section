@@ -1,8 +1,5 @@
 <template>
   <div>
-    <TheLoginHeaderSection
-      :title="post.attributes.promo_banner.promo_title"
-    />
     <TheHeaderSection
       :homepage_title="post.attributes.header_section.homepage_title || '' "
       :header_text="post.attributes.header_section.header_text"
