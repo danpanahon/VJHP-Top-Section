@@ -98,25 +98,49 @@ export default {
       type: String,
       required: true,
     },
+    header_section_game_slider_1: {
+       type: Image,
+       required: true,
+    },
     header_section_game_slider_url_1: {
       type: String,
       required: true,
+    },
+    header_section_game_slider_2: {
+       type: Image,
+       required: true,
     },
     header_section_game_slider_url_2: {
       type: String,
       required: true,
     },
+    header_section_game_slider_3: {
+       type: Image,
+       required: true,
+    },
     header_section_game_slider_url_3: {
       type: String,
       required: true,
+    },
+    header_section_game_slider_4: {
+       type: Image,
+       required: true,
     },
     header_section_game_slider_url_4: {
       type: String,
       required: true,
     },
+    header_section_game_slider_5: {
+       type: Image,
+       required: true,
+    },
     header_section_game_slider_url_5: {
       type: String,
       required: true,
+    },
+    header_section_game_slider_6: {
+       type: Image,
+       required: true,
     },
     header_section_game_slider_url_6: {
       type: String,
