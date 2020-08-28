@@ -47,9 +47,9 @@
           </li>
         </ul>
         <h4>{{ header_section_best_deal_caption }}</h4>
-        <div class="chest img-fluid">
+        <div class="chest">
           <a v-bind:href="header_section_best_deal_image_url">
-            <img v-bind:src="header_section_best_deal_image" />
+            <img class="img-fluid" v-bind:src="header_section_best_deal_image" />
           </a>
         </div>
         <p>{{ header_section_best_deal_small_caption }}</p>
